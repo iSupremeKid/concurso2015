@@ -1,0 +1,443 @@
+/*------------------------------------*\
+|    $Cabecera						   |
+\*------------------------------------*/
+
+
+
+header .logo{
+	padding : 1px 17%;
+}
+
+@media only screen and (max-width: 820px) {
+    #logo {
+        padding: 1px 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #fondo {
+    background: url("../img/cabecera.png") no-repeat;	
+	background-size: 100% 200px;
+	height: 200px;
+    }
+}
+
+@media only screen and (max-width: 687px) {
+    #concurso {
+    	 display: block;
+   margin: 10px 0;
+    content: url("../img/concurso_atencion2.png") no-repeat;		
+
+	height: 50px;
+	
+    }
+}
+
+.concurso{
+	
+	content: url("../img/concurso_atencion.png") no-repeat;		
+	height: 30px;
+}
+
+@media only screen and (max-width: 820px) {
+    #orgullo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #concurso {
+        padding: 1px 20px;
+    }
+}
+
+header .concurso{
+	padding : 0px 24%;
+	
+	font-size: 40px;
+
+}
+
+header .bg-img .concurso img{ 
+	text-align: top;	
+	max-width: 360px;
+}
+
+
+
+header .muela{
+	padding : 0px 0px;
+}
+
+header .bg-img .muela img{ 
+	text-align: right;	
+	max-width: 360px;
+
+}
+
+header .bg-img .orgullosos {
+  /*display: inline-block;
+  */
+  
+
+}
+header .orgullosos{
+	padding : 0px 30%;
+}
+
+header .bg-img .orgullosos img{ 
+	text-align: top;
+	
+	max-width: 360px;
+
+}
+
+header .fondo{
+	
+	background: url("../img/cabecera2.png") no-repeat;	
+	background-size: 100% 200px;
+	height: 200px;
+}
+
+
+
+/*------------------------------------*\
+|    $Fin_Cabecera 					    |
+\*------------------------------------*/
+
+
+/*====================================*\
+
+
+
+/*------------------------------------*\
+|    $Otros							    |
+\*------------------------------------*/
+
+
+.row img{
+	vertical-align: bottom;
+}
+
+.lineaSeparadora{
+	background: #fff  no-repeat scroll center;
+	margin-left: 15em;
+	margin-right: 15em;
+	padding: 1px;
+
+}
+
+mark{
+	background-color: #cb5d34;
+}
+
+.row{
+	position: relative;
+	right: 0px;
+}
+
+.row h1{
+	color:#1f497d;
+}
+
+.sombrear{
+	background-color: #d9d9d9;
+	color: #943634;
+}
+
+.row hr{
+	background : #1f497d;	
+	width:50em;
+	height:.05em;
+	padding: 0px;
+	
+}
+
+
+/*------------------------------------*\
+|    $Fin_Otros							|
+\*------------------------------------*/
+
+/*====================================*\
+
+/*------------------------------------*\
+|    $Tablas							|
+\*------------------------------------*/
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-7lb1{font-size:13px;background-color:#4bacc6;color:#ffffff;text-align:center}
+.tg .centrar_celda{text-align: center;}
+
+th{
+	border-color: black;
+}
+
+td{
+	border-color: black;
+}
+
+.tabla_izquierda{
+	position: relative;
+	right: 80px;
+}
+
+.listaBases .listaPorNumero{
+	color: #0070c0;
+	font-weight: bold;
+}
+
+.tg .tg-cxkv{background-color:#ffffff}
+.tg .tg-6mxk{padding: 10px;background-color:#4bacc6;color:#ffffff;text-align:center}
+
+
+/*------------------------------------*\
+|    $Fin_Tablas							|
+\*------------------------------------*/
+
+/*====================================*\
+
+/*------------------------------------*\
+|    $Menu								|
+\*------------------------------------*/
+
+@media screen and (min-width: 768px) {	
+	.menu{
+		position: relative;
+		width: 677px;
+		top: -24px;
+		z-index: 2;
+		margin: 0 auto;
+
+	}
+}
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+
+}
+
+#cssmenu:after,
+#cssmenu > ul:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	text-align: center;
+}
+
+#cssmenu #menu-button {
+	display: none;
+}
+
+#cssmenu {
+	width: auto;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1;
+	background: #FFFFFF;
+	color: #4CB6B8;
+}
+
+#cssmenu > ul {
+	background-color: white;
+}
+
+#cssmenu > ul > li {
+	float: left;
+}
+
+#cssmenu.align-center > ul {
+	font-size: 0;
+	text-align: center;
+}
+
+#cssmenu.align-center > ul > li {
+	display: inline-block;
+	float: none;
+}
+
+#cssmenu.align-right > ul > li {
+	float: right;
+}
+
+#cssmenu > ul > li > a {
+	padding: 11px 4px;
+	font-size: 10.3px;
+	text-decoration: none;
+
+	color: #70C0C4;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+	background-color: #70C0C4;
+	color: white;
+}
+
+#cssmenu #menu-indicator {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	height: 0;
+	width: 0;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+#cssmenu.small-screen {
+	width: 100%;separator
+}
+
+#cssmenu.small-screen > ul,
+#cssmenu.small-screen.align-center > ul {
+	width: 100%;
+	text-align: left;
+}
+
+#cssmenu.small-screen > ul > li,
+#cssmenu.small-screen.align-center > ul > li {
+	float: none;
+	display: block;
+}
+
+#cssmenu.small-screen > ul > li > a {
+	padding: 16px 32px;
+}
+
+#cssmenu.small-screen > ul > li:after,
+#cssmenu.small-screen > ul > li:before {
+	display: block;
+}
+
+#cssmenu.small-screen #menu-button {
+	display: block;
+	padding: 16px 32px;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+	color: #70C0C4;
+	background-color: white;
+}
+
+#cssmenu.small-screen #menu-button.menu-opened {
+	color:#70C0C4;
+	padding: 14px;
+	display: block;
+}
+
+#cssmenu.small-screen #menu-button:after {
+	content: "";
+	position: absolute;
+	right: 25px;
+	top: 15.5px;
+	display: block; 
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border-top: 2px solid #70C0C4;
+	border-bottom: 2px solid #70C0C4;
+	width: 18px;
+	height: 3px;
+}
+
+#cssmenu.small-screen #menu-button:before {
+	content: "";
+	position: absolute;
+	right: 25px;
+	top: 26px;
+	display: block;
+	width: 18px;
+	height: 2px;
+	background:  #70C0C4;
+}
+
+#cssmenu.small-screen #menu-button.menu-opened:before {
+	background: #70C0C4;
+}
+
+#cssmenu.small-screen #menu-indicator {
+	display: none;
+}
+
+/*------------------------------------*\
+|    $Fin_Menu							|
+\*------------------------------------*/
+
+/*====================================*\
+
+/*------------------------------------*\
+|    $Pagina_Centro						|
+\*------------------------------------*/
+
+#contenedor_total{	
+	position:relative;text-align:justify;max-width:780px;margin-left:auto;margin-right:auto;display:block;
+}
+
+#contenido_paginas{
+	padding: 15px;
+	max-width:970px;
+	background-color:#fff;
+	margin-left:27px;
+	margin-top:20px;
+	margin-bottom:15px;	
+	border-radius: 30px;
+	box-shadow: 3px 3px 10px  #AAAAAA;
+	-o-border-radius: 30px;
+	-o-box-shadow:3px 3px 10px  #AAAAAA;
+	-moz-border-radius:30px;
+	-moz-box-shadow:3px 3px 10px  #AAAAAA;
+	-webkit-border-radius:30px;
+	-webkit-box-shadow:3px 3px 10px  #AAAAAA;
+	-ms-border-radius:30px;
+	-ms-box-shadow:3px 3px 10px  #AAAAAA;
+	clear:both;
+}
+
+
+/*------------------------------------*\
+|    $Fin_Pagina_Centro					|
+\*------------------------------------*/
+
+/*====================================*\
+
+/*------------------------------------*\
+|    $Pie_de_Página						|
+\*------------------------------------*/
+
+footer{
+	background-color: #70C0C4;
+	color: white;
+	text-align: center;
+	padding: 10px;	
+	margin-top: 10px;	
+}
+
+footer p{
+	margin: 0;
+	font-size: 12px;
+}
+
+/*------------------------------------*\
+|    $Fin_Pie_de_Página					|
+\*------------------------------------*/
